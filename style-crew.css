@@ -1,0 +1,185 @@
+body {
+  background-color: #0b0d17;
+  background-image: url(assets/crew/background-crew-desktop.jpg);
+  background-size: cover;
+}
+
+hr {}
+
+h1 {
+  font-family: 'Bellefair', serif;
+  font-size: 937.5%;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h2 {
+  font-family: 'Bellefair', serif;
+  font-size: 625%;
+  font-weight: 100;
+  color: #ffffff;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Bellefair', serif;
+  font-size: 350%;
+  font-weight: 100;
+  margin: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Bellefair', serif;
+  font-size: 200%;
+  font-weight: 100;
+  color: #ffffff;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 175%;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  word-spacing: 100%;
+  color: #ffffff;
+  margin: 0;
+  padding-left: 15px;
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 150%;
+  font-weight: 100;
+  color: #d0d6f9;
+  margin: 0;
+  padding-left: 15px;
+}
+
+div {
+  backdrop-filter: blur(5000%);
+}
+
+span {
+  margin-right: 20px;
+  opacity: 40%;
+}
+a{
+    text-decoration: none;
+}
+img {}
+
+.top {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+}
+
+.top img {
+  margin: 50px;
+}
+
+.top hr {
+  border-top: none;
+  border-width: 2px;
+  border-color: gray;
+  opacity: 70%;
+  width: 60%;
+  margin: 20px;
+  position: absolute;
+  top: 60px;
+  left: 150px;
+}
+
+.top div {
+  display: inline;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 50%;
+  padding: 20px;
+}
+
+.top div p {
+  color: #ffffff;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 40px;
+}
+
+
+.info {
+  margin-left: 150px;
+}
+
+.info h5 {
+  font-size: 200%;
+}
+
+.info h3 {
+  margin-left: 15px;
+  font-size: 250%;
+  text-transform: uppercase;
+  opacity: 40%;
+}
+
+.info h2 {
+  margin: 20px 15px 30px 0;
+  margin-left: 15px;
+  font-size: 400%;
+  text-transform: uppercase;
+}
+
+.info p {
+  line-height: 1.75;
+  letter-spacing: 2px;
+  width: 55%;
+}
+
+.info div {
+  margin-top: 10%;
+  width: 60%;
+}
+
+.circle {
+  display: inline;
+  width: 35%;
+  position: absolute;
+  bottom: 5%;
+}
+
+.circle div {
+  margin: 100px 10px 0 10px;
+  display: inline-block;
+  background-color: #ffffff;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+}
+
+.active {
+  opacity: 100%;
+}
+
+.not-active {
+  opacity: 20%;
+}
+.not-active:hover {
+    opacity: 40%;
+  }
+  
+.crew {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  width: 27%;
+}

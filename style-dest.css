@@ -1,0 +1,169 @@
+body {
+  background-color: #0b0d17;
+  background-image: url(assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+}
+
+hr {}
+
+h1 {
+  font-family: 'Bellefair', serif;
+  font-size: 937.5%;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h2 {
+  font-family: 'Bellefair', serif;
+  font-size: 625%;
+  font-weight: 100;
+  color: #ffffff;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Bellefair', serif;
+  font-size: 350%;
+  font-weight: 100;
+  margin: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Bellefair', serif;
+  font-size: 200%;
+  font-weight: 100;
+  color: #ffffff;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 175%;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  word-spacing: 100%;
+  color: #ffffff;
+  margin: 0;
+  padding-left: 15px;
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 150%;
+  font-weight: 100;
+  color: #d0d6f9;
+  margin: 0;
+  padding-left: 15px;
+}
+
+div {
+  backdrop-filter: blur(5000%);
+}
+
+span {
+  opacity: 40%;
+}
+
+img {}
+
+.top {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+}
+
+.top img {
+  margin: 50px;
+}
+
+.top hr {
+  border-top: none;
+  border-width: 2px;
+  border-color: gray;
+  opacity: 70%;
+  width: 60%;
+  margin: 20px;
+  position: absolute;
+  top: 60px;
+  left: 150px;
+}
+
+.top div {
+  display: inline;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 50%;
+  padding: 20px;
+}
+
+.top div p {
+  color: #ffffff;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 40px;
+}
+
+.heading {
+  margin-left: 100px;
+}
+
+.heading h5 {
+  font-size: 200%;
+}
+
+.heading img {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  height: 600px;
+  width: 600px;
+}
+
+.planet {
+  width: 30%;
+  position: absolute;
+  top: 25%;
+  right: 10%;
+}
+
+.planet a {
+  text-decoration: none;
+}
+
+.planet h5 {
+  margin: 0;
+  padding: 20px;
+  font-size: 125%;
+  display: inline;
+}
+
+.planet hr {
+  border-color: gray;
+  opacity: 50%;
+}
+
+.planet div {
+  margin-left: 20px;
+}
+
+.avg {
+  display: inline-block;
+  font-weight: 100;
+  width: 45%;
+}
+
+.avg h5 {
+  padding: 0;
+  font-size: 150%;
+  color: #d0d6f9;
+}
